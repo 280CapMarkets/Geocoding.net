@@ -4,6 +4,7 @@
 test/Geocoding.Tests/settings-override.json
 
 .vs
+.idea
 /artifacts
 project.lock.json
 
