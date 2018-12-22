@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyTitle>Geocoding.net Tests</AssemblyTitle>
     <VersionPrefix>4.0.0-beta1</VersionPrefix>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <AssemblyName>Geocoding.Tests</AssemblyName>
     <PackageId>Geocoding.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
