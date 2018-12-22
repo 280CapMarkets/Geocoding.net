@@ -21,7 +21,7 @@ install:
 build_script:
     - ps: dotnet build /p:Version=$env:APPVEYOR_BUILD_VERSION /p:Configuration=Release
 test_script: 
-    - ps: dotnet test --filter FullyQualifiedName~UsCensusBureauTest
+    #- ps: dotnet test --filter FullyQualifiedName~UsCensusBureauTest
 after_test: 
     - ps: dotnet pack /p:Version=$env:APPVEYOR_BUILD_VERSION /p:Configuration=Release -o ../../artifacts
     - ps: dotnet nuget push artifacts\*.nupkg -k $env:nuget_apikey -s https://www.myget.org/F/280capmarkets/auth/$env:nuget_apikey/api/v3/index.json
